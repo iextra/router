@@ -1,0 +1,29 @@
+{
+    "name": "iextra/router",
+    "description": "router",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "iextra",
+            "email": "iextra.denis@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Extra\\": "src/Extra/"
+        }
+    },
+    "require": {
+        "php": ">=7.1"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require-dev": {
+        "phpunit/phpunit": "^9.2",
+        "iextra/dumper": "^1.0"
+    }
+}
